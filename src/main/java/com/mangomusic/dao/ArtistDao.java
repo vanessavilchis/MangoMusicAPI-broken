@@ -32,7 +32,6 @@ public class ArtistDao {
 
         } catch (SQLException e) {
             throw new RuntimeException("Error getting all artists", e);
-            3
         }
 
         return artists;

@@ -217,6 +217,5 @@ public class AlbumDao {
         album.setReleaseYear(results.getInt("release_year"));
         album.setArtistName(results.getString("artist_name"));
         return album;
-        retu
     }
 }
